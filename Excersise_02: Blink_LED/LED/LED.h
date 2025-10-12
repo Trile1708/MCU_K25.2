@@ -2,6 +2,7 @@
 #define LED_H
 
 #include "S32K144.h"
+#include <stdint.h>
 
 /*==========================
     Function Prototypes
