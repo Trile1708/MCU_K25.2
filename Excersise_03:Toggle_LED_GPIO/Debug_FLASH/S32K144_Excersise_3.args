@@ -1,0 +1,15 @@
+-T
+"C:/Users/LENOVO/workspaceS32DS.3.6.4/S32K144_Excersise_3/Project_Settings/Linker_Files/S32K144_64_flash.ld"
+-Wl,-Map,"S32K144_Excersise_3.map"
+-Xlinker
+--gc-sections
+-n
+-mcpu=cortex-m4
+-specs=rdimon.specs
+"./Project_Settings/Startup_Code/startup.o"
+"./Project_Settings/Startup_Code/startup_S32K144.o"
+"./Project_Settings/Startup_Code/system_S32K144.o"
+"./src/App/main.o"
+"./src/Driver/GPIO/GPIO.o"
+"./src/Driver/PCC/PCC.o"
+"./src/Driver/PORT/PORT.o"
